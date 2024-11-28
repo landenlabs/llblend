@@ -11,7 +11,7 @@
 //-------------------------------------------------------------------------------------------------
 //
 // Author: Dennis Lang - 2021
-// http://landenlabs.com
+// https://landenlabs.com
 //
 // This file is part of llblendF project.
 //
