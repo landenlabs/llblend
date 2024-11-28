@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9B44DBB1D8F65CD00782398 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9AB2368B2CF7F11E007446E8 /* blendcfg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = blendcfg.hpp; sourceTree = "<group>"; };
+		9AB2368C2CF7F11E007446E8 /* blendcfg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blendcfg.cpp; sourceTree = "<group>"; };
+		9AB2368D2CF7F11E007446E8 /* blendfutil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = blendfutil.hpp; sourceTree = "<group>"; };
+		9AB2368E2CF7F11E007446E8 /* blendfutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blendfutil.cpp; sourceTree = "<group>"; };
+		9AB2368F2CF7F11E007446E8 /* blendmutil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = blendmutil.hpp; sourceTree = "<group>"; };
+		9AB236902CF7F11E007446E8 /* blendmutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blendmutil.cpp; sourceTree = "<group>"; };
+		9AB236912CF7F11E007446E8 /* colors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = colors.hpp; sourceTree = "<group>"; };
+		9AB236922CF7F11E007446E8 /* commands.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = commands.hpp; sourceTree = "<group>"; };
+		9AB236932CF7F11E007446E8 /* commands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = commands.cpp; sourceTree = "<group>"; };
+		9AB236942CF7F11E007446E8 /* directory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = directory.hpp; sourceTree = "<group>"; };
+		9AB236952CF7F11E007446E8 /* directory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = directory.cpp; sourceTree = "<group>"; };
+		9AB236962CF7F11E007446E8 /* fbrush.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fbrush.hpp; sourceTree = "<group>"; };
+		9AB236972CF7F11E007446E8 /* fbrush.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fbrush.cpp; sourceTree = "<group>"; };
+		9AB236982CF7F11E007446E8 /* fcolor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fcolor.hpp; sourceTree = "<group>"; };
+		9AB236992CF7F11E007446E8 /* fcolor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fcolor.cpp; sourceTree = "<group>"; };
+		9AB2369A2CF7F11E007446E8 /* fileutil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fileutil.hpp; sourceTree = "<group>"; };
+		9AB2369B2CF7F11E007446E8 /* fileutil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fileutil.cpp; sourceTree = "<group>"; };
+		9AB2369C2CF7F11E007446E8 /* fimage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fimage.hpp; sourceTree = "<group>"; };
+		9AB2369D2CF7F11E007446E8 /* fimage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fimage.cpp; sourceTree = "<group>"; };
+		9AB2369E2CF7F11E007446E8 /* fpalette.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fpalette.hpp; sourceTree = "<group>"; };
+		9AB2369F2CF7F11E007446E8 /* fpalette.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fpalette.cpp; sourceTree = "<group>"; };
+		9AB236A02CF7F11E007446E8 /* fprint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fprint.hpp; sourceTree = "<group>"; };
+		9AB236A12CF7F11E007446E8 /* fprint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fprint.cpp; sourceTree = "<group>"; };
+		9AB236A22CF7F11E007446E8 /* hash.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hash.hpp; sourceTree = "<group>"; };
+		9AB236A32CF7F11E007446E8 /* hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hash.cpp; sourceTree = "<group>"; };
+		9AB236A42CF7F11E007446E8 /* json.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		9AB236A52CF7F11E007446E8 /* ll_stdhdr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ll_stdhdr.hpp; sourceTree = "<group>"; };
+		9AB236A62CF7F11E007446E8 /* llblendf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = llblendf.cpp; sourceTree = "<group>"; };
+		9AB236A72CF7F11E007446E8 /* lstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lstring.hpp; sourceTree = "<group>"; };
+		9AB236A82CF7F11E007446E8 /* md5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = md5.hpp; sourceTree = "<group>"; };
+		9AB236A92CF7F11E007446E8 /* md5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		9AB236AA2CF7F11E007446E8 /* split.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = split.hpp; sourceTree = "<group>"; };
+		9AB236AB2CF7F11E007446E8 /* swapstream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = swapstream.hpp; sourceTree = "<group>"; };
+		9AB236AC2CF7F11E007446E8 /* xxhash64.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = xxhash64.hpp; sourceTree = "<group>"; };
+		B9B44DBD1D8F65CD00782398 /* llblend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = llblend; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B44DBA1D8F65CD00782398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B44DB41D8F65CD00782398 = {
+			isa = PBXGroup;
+			children = (
+				B9B44DBF1D8F65CD00782398 /* llblend */,
+				B9B44DBE1D8F65CD00782398 /* Products */,
+				9AB2368B2CF7F11E007446E8 /* blendcfg.hpp */,
+				9AB2368C2CF7F11E007446E8 /* blendcfg.cpp */,
+				9AB2368D2CF7F11E007446E8 /* blendfutil.hpp */,
+				9AB2368E2CF7F11E007446E8 /* blendfutil.cpp */,
+				9AB2368F2CF7F11E007446E8 /* blendmutil.hpp */,
+				9AB236902CF7F11E007446E8 /* blendmutil.cpp */,
+				9AB236912CF7F11E007446E8 /* colors.hpp */,
+				9AB236922CF7F11E007446E8 /* commands.hpp */,
+				9AB236932CF7F11E007446E8 /* commands.cpp */,
+				9AB236942CF7F11E007446E8 /* directory.hpp */,
+				9AB236952CF7F11E007446E8 /* directory.cpp */,
+				9AB236962CF7F11E007446E8 /* fbrush.hpp */,
+				9AB236972CF7F11E007446E8 /* fbrush.cpp */,
+				9AB236982CF7F11E007446E8 /* fcolor.hpp */,
+				9AB236992CF7F11E007446E8 /* fcolor.cpp */,
+				9AB2369A2CF7F11E007446E8 /* fileutil.hpp */,
+				9AB2369B2CF7F11E007446E8 /* fileutil.cpp */,
+				9AB2369C2CF7F11E007446E8 /* fimage.hpp */,
+				9AB2369D2CF7F11E007446E8 /* fimage.cpp */,
+				9AB2369E2CF7F11E007446E8 /* fpalette.hpp */,
+				9AB2369F2CF7F11E007446E8 /* fpalette.cpp */,
+				9AB236A02CF7F11E007446E8 /* fprint.hpp */,
+				9AB236A12CF7F11E007446E8 /* fprint.cpp */,
+				9AB236A22CF7F11E007446E8 /* hash.hpp */,
+				9AB236A32CF7F11E007446E8 /* hash.cpp */,
+				9AB236A42CF7F11E007446E8 /* json.hpp */,
+				9AB236A52CF7F11E007446E8 /* ll_stdhdr.hpp */,
+				9AB236A62CF7F11E007446E8 /* llblendf.cpp */,
+				9AB236A72CF7F11E007446E8 /* lstring.hpp */,
+				9AB236A82CF7F11E007446E8 /* md5.hpp */,
+				9AB236A92CF7F11E007446E8 /* md5.cpp */,
+				9AB236AA2CF7F11E007446E8 /* split.hpp */,
+				9AB236AB2CF7F11E007446E8 /* swapstream.hpp */,
+				9AB236AC2CF7F11E007446E8 /* xxhash64.hpp */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B44DBE1D8F65CD00782398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B44DBD1D8F65CD00782398 /* llblend */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B44DBF1D8F65CD00782398 /* llblend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = llblend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B44DBC1D8F65CD00782398 /* llblend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B44DC41D8F65CD00782398 /* Build configuration list for PBXNativeTarget "llblend" */;
+			buildPhases = (
+				B9B44DB91D8F65CD00782398 /* Sources */,
+				B9B44DBA1D8F65CD00782398 /* Frameworks */,
+				B9B44DBB1D8F65CD00782398 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = llblend;
+			productName = llblend;
+			productReference = B9B44DBD1D8F65CD00782398 /* llblend */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B44DB51D8F65CD00782398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dennis Lang";
+				TargetAttributes = {
+					B9B44DBC1D8F65CD00782398 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B9B44DB81D8F65CD00782398 /* Build configuration list for PBXProject "llblend" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = B9B44DB41D8F65CD00782398;
+			productRefGroup = B9B44DBE1D8F65CD00782398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B44DBC1D8F65CD00782398 /* llblend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B44DB91D8F65CD00782398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9B44DC21D8F65CD00782398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/include/ImageMagick-7",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/lib",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lMagick++-7.Q16HDRI",
+					"-lMagickWand-7.Q16HDRI",
+					"-lMagickCore-7.Q16HDRI",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B9B44DC31D8F65CD00782398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/include/ImageMagick-7",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/lib",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lMagick++-7.Q16HDRI",
+					"-lMagickWand-7.Q16HDRI",
+					"-lMagickCore-7.Q16HDRI",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B9B44DC51D8F65CD00782398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/include/ImageMagick-7",
+					/opt/homebrew/include/,
+					"/opt/homebrew/include/ImageMagick-7",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/lib",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/lib",
+					/opt/homebrew/lib/,
+					"/opt/homebrew//Cellar/imagemagick/7.1.1-39/lib/pkgconfig",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"$(OTHER_CFLAGS)",
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-DMAGICKCORE_HDRI_ENABLE=1",
+					"-DMAGICKCORE_QUANTUM_DEPTH=16",
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-DMAGICKCORE_HDRI_ENABLE=1",
+					"-DMAGICKCORE_QUANTUM_DEPTH=16",
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-DMAGICKCORE_HDRI_ENABLE=1",
+					"-DMAGICKCORE_QUANTUM_DEPTH=16",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9B44DC61D8F65CD00782398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/include/ImageMagick-7",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/include/ImageMagick-7",
+					"/opt/homebrew/include/ImageMagick-7",
+					/opt/homebrew/include/,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"/usr/local/Cellar/imagemagick/7.0.11-7/lib",
+					"/usr/local/Cellar/imagemagick/7.0.11-14/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-3/lib",
+					"/usr/local/Cellar/imagemagick/7.1.0-17/lib",
+					/opt/homebrew/lib/,
+					"/opt/homebrew//Cellar/imagemagick/7.1.1-39/lib/pkgconfig",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"$(OTHER_CFLAGS)",
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-DMAGICKCORE_HDRI_ENABLE=1",
+					"-DMAGICKCORE_QUANTUM_DEPTH=16",
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-DMAGICKCORE_HDRI_ENABLE=1",
+					"-DMAGICKCORE_QUANTUM_DEPTH=16",
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-DMAGICKCORE_HDRI_ENABLE=1",
+					"-DMAGICKCORE_QUANTUM_DEPTH=16",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B44DB81D8F65CD00782398 /* Build configuration list for PBXProject "llblend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B44DC21D8F65CD00782398 /* Debug */,
+				B9B44DC31D8F65CD00782398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B44DC41D8F65CD00782398 /* Build configuration list for PBXNativeTarget "llblend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B44DC51D8F65CD00782398 /* Debug */,
+				B9B44DC61D8F65CD00782398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B44DB51D8F65CD00782398 /* Project object */;
+}
