@@ -1,3 +1,6 @@
+# copy of mac /usr/local/lib and /usr/local/include of freeimage and Magick++
+extras.zip
+
 # Mac exclude
 .DS_Store
 git-notes.txt
@@ -7,4 +10,7 @@ git-notes.txt
 *.xcuserstate
 
 # Windows VisualStudio
-# TODO add excludes
+.ipch/
+.vs/
+.obj
+.exe

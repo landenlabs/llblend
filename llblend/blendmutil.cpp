@@ -36,11 +36,21 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+
 #include "BlendMUtil.hpp"
 
+// Download ImageMagick source code
+//   ./configure --without-lqr --without-jxl
+//   edit files to remove/disable jpeg12 and jpeg16
+//   add libjpeg.a path  -L...
+//   make
+//   sudo make install
+//  --- update this project include and library path to include
+//    include search:  /usr/local/include//ImageMagick-7
+//    lib search:      /usr/local/lib/libMagick++-7.Q16HDRI.a
 #define MAGICKCORE_QUANTUM_DEPTH 32
 #define MAGICKCORE_HDRI_ENABLE 0
-#include <Magick++.h>
+#include "Magick++.h"
 // using namespace Magick;
 
 #include <ctype.h>

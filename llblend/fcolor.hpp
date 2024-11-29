@@ -40,7 +40,7 @@
 #pragma once
 
 // #include "FImage.hpp"
-#include "FreeImage.hpp"
+#include "freeimage/FreeImage.h"
 
 class FColor : public RGBQUAD {
 public:

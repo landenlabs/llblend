@@ -1,6 +1,6 @@
 #!/bin/csh -f
 
-set app=llbend
+set app=llblend
 xcodebuild -list -project $app.xcodeproj
 
 # rm -rf DerivedData/

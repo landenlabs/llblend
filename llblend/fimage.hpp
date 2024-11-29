@@ -8,6 +8,16 @@
 //  FreeImage 3  Design and implementation by
 //  - Floris van den Berg (flvdberg@wxs.nl)
 //  - Herv<E9> Drolon (drolon@infonie.fr)
+//
+//  Download FreeImage source code distribution
+//    1. https://sourceforge.net/projects/freeimage/
+//    2. edit Makfile.osx and change arch from X86_64 to arm64
+//    2. build distribution,   make
+//    3. install,  make install
+//   Files get stored in-
+//      /usr/local/lib/libfreeimage.a
+//      /usr/local/include/FreeImage.h
+//
 //-------------------------------------------------------------------------------------------------
 //
 // Author: Dennis Lang - 2021
@@ -38,7 +48,7 @@
 
 #pragma once
 
-#include "FreeImage.hpp"
+#include "freeimage/FreeImage.h"
 
 #include "FPalette.hpp"
 #include "FColor.hpp"

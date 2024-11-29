@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9AB237CC2CF9648D007446E8 /* libMagick++-7.Q16HDRI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB237CB2CF9648D007446E8 /* libMagick++-7.Q16HDRI.a */; };
+		9AB237CD2CF96629007446E8 /* libfreeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB237C92CF9647C007446E8 /* libfreeimage.a */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		9AB236E22CF8DD97007446E8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		9AB236E42CF8DD97007446E8 /* llblend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = llblend; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB237C92CF9647C007446E8 /* libfreeimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreeimage.a; path = ../../../../../../../usr/local/lib/libfreeimage.a; sourceTree = "<group>"; };
+		9AB237CB2CF9648D007446E8 /* libMagick++-7.Q16HDRI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMagick++-7.Q16HDRI.a"; path = "../../../../../../../usr/local/lib/libMagick++-7.Q16HDRI.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB237CC2CF9648D007446E8 /* libMagick++-7.Q16HDRI.a in Frameworks */,
+				9AB237CD2CF96629007446E8 /* libfreeimage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9AB236E62CF8DD97007446E8 /* llblend */,
+				9AB237C82CF9647C007446E8 /* Frameworks */,
 				9AB236E52CF8DD97007446E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +65,15 @@
 				9AB236E42CF8DD97007446E8 /* llblend */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB237C82CF9647C007446E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AB237CB2CF9648D007446E8 /* libMagick++-7.Q16HDRI.a */,
+				9AB237C92CF9647C007446E8 /* libfreeimage.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +264,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/llblend/freeimage",
+					/usr/local/lib/,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include/ImageMagick-7";
+				USER_HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/usr/local/include/ImageMagick-7",
+				);
 			};
 			name = Debug;
 		};
@@ -253,7 +282,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/llblend/freeimage",
+					/usr/local/lib/,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "/usr/local/include/ImageMagick-7";
+				USER_HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/usr/local/include/ImageMagick-7",
+				);
 			};
 			name = Release;
 		};
