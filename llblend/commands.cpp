@@ -54,9 +54,9 @@
 #include "ll_stdhdr.hpp"
 #include "split.hpp"
 
-// #include "BlendFUtil.hpp"
-#include "FPrint.hpp"
-#include "FileUtil.hpp"
+// #include "blendfutil.hpp"
+#include "fprint.hpp"
+#include "fileutil.hpp"
 
 
 //-------------------------------------------------------------------------------------------------

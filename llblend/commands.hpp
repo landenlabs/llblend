@@ -49,8 +49,8 @@
 
 #include "ll_stdhdr.hpp"
 #include "directory.hpp"
-#include "BlendFUtil.hpp"
-#include "BlendCfg.hpp"
+#include "blendfutil.hpp"
+#include "blendcfg.hpp"
 
 #include <vector>
 #include <regex>

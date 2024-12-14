@@ -39,7 +39,7 @@
 
 #pragma once
 
-#include "FColor.hpp"
+#include "fcolor.hpp"
 #include <vector>
 
 class Mapping {

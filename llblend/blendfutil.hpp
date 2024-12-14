@@ -41,10 +41,10 @@
 
 #include <iostream>
 
-#include "FImage.hpp"
-#include "FPalette.hpp"
-#include "FBrush.hpp"
-#include "BlendCfg.hpp"
+#include "fimage.hpp"
+#include "fpalette.hpp"
+#include "fbrush.hpp"
+#include "blendcfg.hpp"
 
 class BlendFUtil {
 public:

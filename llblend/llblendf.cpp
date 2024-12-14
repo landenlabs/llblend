@@ -58,7 +58,7 @@
 #include "directory.hpp"
 #include "ll_stdhdr.hpp"
 #include "split.hpp"
-#include "BlendCfg.hpp"
+#include "blendcfg.hpp"
 
 // #include <Magick++.h>
 // using namespace Magick;

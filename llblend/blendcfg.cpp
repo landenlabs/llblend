@@ -37,7 +37,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 // Project files
-#include "BlendCfg.hpp"
+#include "blendcfg.hpp"
 
 #include <assert.h>
 #include <iomanip>

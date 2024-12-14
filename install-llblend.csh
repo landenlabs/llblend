@@ -1,7 +1,7 @@
 #!/bin/csh -f
 
 set app=llblend
-xcodebuild -list -project $app.xcodeproj
+# xcodebuild -list -project $app.xcodeproj
 
 # rm -rf DerivedData/
 xcodebuild -scheme $app -configuration Release clean build
@@ -13,4 +13,5 @@ set src=./DerivedData/Build/Products/Release/$app
 
 echo "File ß$src"
 ls -al $src
-cp $src ~/opt/bi
+cp $src ~/opt/bin/
+ls -al ~/opt/bin/$src

@@ -42,7 +42,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-#include "FPalette.hpp"
+#include "fpalette.hpp"
 
 class BlendCfg {
 public:

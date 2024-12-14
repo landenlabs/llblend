@@ -50,9 +50,9 @@
 
 #include "freeimage/FreeImage.h"
 
-#include "FPalette.hpp"
-#include "FColor.hpp"
-#include "FBrush.hpp"
+#include "fpalette.hpp"
+#include "fcolor.hpp"
+#include "fbrush.hpp"
 
 #include <iostream>
 

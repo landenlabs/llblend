@@ -37,7 +37,7 @@
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-#include "BlendMUtil.hpp"
+#include "blendmutil.hpp"
 
 // Download ImageMagick source code
 //   ./configure --without-lqr --without-jxl
@@ -67,7 +67,7 @@
 #include <sstream>
 #include <vector>
 
-#include "FileUtil.hpp"
+#include "fileutil.hpp"
 #include "commands.hpp"
 #include "directory.hpp"
 #include "ll_stdhdr.hpp"

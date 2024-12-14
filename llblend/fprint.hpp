@@ -39,8 +39,8 @@
 
 #pragma once
 
-#include "FImage.hpp"
-#include "FPalette.hpp"
+#include "fimage.hpp"
+#include "fpalette.hpp"
 
 class FPrint {
 public:
