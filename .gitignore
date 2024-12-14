@@ -1,9 +1,7 @@
-# copy of mac /usr/local/lib and /usr/local/include of freeimage and Magick++
-extras.zip
+# .gitignore
 
 # Mac exclude
 .DS_Store
-git-notes.txt
 /DerivedData
 /*/project.xcworkspace/
 /*/xcuserdata/
@@ -11,6 +9,7 @@ git-notes.txt
 
 # Windows VisualStudio
 .ipch/
+x64/
 .vs/
 .obj
 .exe
