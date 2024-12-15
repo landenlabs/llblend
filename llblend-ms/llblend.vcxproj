@@ -19,23 +19,43 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\llblend\commands.cpp" />
-    <ClCompile Include="..\llblend\directory.cpp" />
-    <ClCompile Include="..\llblend\hash.cpp" />
-    <ClCompile Include="..\llblend\llblend.cpp" />
-    <ClCompile Include="..\llblend\md5.cpp" />
+    <ClInclude Include="..\llblend\blendcfg.hpp" />
+    <ClInclude Include="..\llblend\blendfutil.hpp" />
+    <ClInclude Include="..\llblend\blendmutil.hpp" />
+    <ClInclude Include="..\llblend\colors.hpp" />
+    <ClInclude Include="..\llblend\commands.hpp" />
+    <ClInclude Include="..\llblend\directory.hpp" />
+    <ClInclude Include="..\llblend\fbrush.hpp" />
+    <ClInclude Include="..\llblend\fcolor.hpp" />
+    <ClInclude Include="..\llblend\fileutil.hpp" />
+    <ClInclude Include="..\llblend\fimage.hpp" />
+    <ClInclude Include="..\llblend\fpalette.hpp" />
+    <ClInclude Include="..\llblend\fprint.hpp" />
+    <ClInclude Include="..\llblend\freeimage\FreeImage.h" />
+    <ClInclude Include="..\llblend\hash.hpp" />
+    <ClInclude Include="..\llblend\json.hpp" />
+    <ClInclude Include="..\llblend\ll_stdhdr.hpp" />
+    <ClInclude Include="..\llblend\lstring.hpp" />
+    <ClInclude Include="..\llblend\md5.hpp" />
+    <ClInclude Include="..\llblend\split.hpp" />
+    <ClInclude Include="..\llblend\swapstream.hpp" />
+    <ClInclude Include="..\llblend\xxhash64.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\llblend\colors.h" />
-    <ClInclude Include="..\llblend\commands.h" />
-    <ClInclude Include="..\llblend\directory.h" />
-    <ClInclude Include="..\llblend\hash.h" />
-    <ClInclude Include="..\llblend\json.h" />
-    <ClInclude Include="..\llblend\ll_stdhdr.h" />
-    <ClInclude Include="..\llblend\lstring.h" />
-    <ClInclude Include="..\llblend\md5.h" />
-    <ClInclude Include="..\llblend\split.h" />
-    <ClInclude Include="..\llblend\SwapStream.h" />
+    <ClCompile Include="..\llblend\blendcfg.cpp" />
+    <ClCompile Include="..\llblend\blendfutil.cpp" />
+    <ClCompile Include="..\llblend\blendmutil.cpp" />
+    <ClCompile Include="..\llblend\commands.cpp" />
+    <ClCompile Include="..\llblend\directory.cpp" />
+    <ClCompile Include="..\llblend\fbrush.cpp" />
+    <ClCompile Include="..\llblend\fcolor.cpp" />
+    <ClCompile Include="..\llblend\fileutil.cpp" />
+    <ClCompile Include="..\llblend\fimage.cpp" />
+    <ClCompile Include="..\llblend\fpalette.cpp" />
+    <ClCompile Include="..\llblend\fprint.cpp" />
+    <ClCompile Include="..\llblend\hash.cpp" />
+    <ClCompile Include="..\llblend\llblendf.cpp" />
+    <ClCompile Include="..\llblend\md5.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -48,26 +68,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>

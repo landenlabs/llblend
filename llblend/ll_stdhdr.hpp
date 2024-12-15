@@ -32,10 +32,6 @@
 
 #pragma once
 
-#include "lstring.hpp"
-// #include <iosfwd>
-
-using namespace std;
 typedef unsigned short  UShort;
 
 #if defined(_WIN32) || defined(_WIN64)
@@ -46,3 +42,5 @@ typedef unsigned short  UShort;
     typedef unsigned int DWORD;
 #endif
 
+#include "lstring.hpp"
+using namespace std;
