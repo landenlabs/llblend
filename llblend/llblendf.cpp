@@ -239,7 +239,7 @@ void showHelp(char* name) {
     cerr << "\n"
         << name << "  Dennis Lang v1.8 (landenlabs.com) " __DATE__ << "\n"
         << "\nDes: 'Patented Image Blend\n"
-               "Use: llblendF [options] directories...   or  files\n"
+               "Use: llblend [options] directories...   or  files\n"
                "\n"
                " Options (only first unique characters required, options can be repeated): \n"
                "\n"
@@ -248,7 +248,7 @@ void showHelp(char* name) {
                "   -verbose \n"
                "\n"
                " Example: \n"
-               "   llblendF foo.png \n"
+               "   llblend foo.png \n"
                "\n"
                "\n";
 }

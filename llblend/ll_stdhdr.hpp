@@ -37,7 +37,7 @@ typedef unsigned short  UShort;
 #if defined(_WIN32) || defined(_WIN64)
     #define HAVE_WIN
     #define NOMINMAX
-    #define _CRT_SECURE_NO_WARNINGS
+    #define _CRT_SECURE_NO_WARNINGS  // Before any includes
 #else
     typedef unsigned int DWORD;
 #endif

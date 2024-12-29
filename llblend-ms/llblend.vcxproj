@@ -40,6 +40,10 @@
     <ClInclude Include="..\llblend\split.hpp" />
     <ClInclude Include="..\llblend\swapstream.hpp" />
     <ClInclude Include="..\llblend\xxhash64.hpp" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="llblend.rc" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\llblend\blendcfg.cpp" />
