@@ -49,12 +49,18 @@ public:
     BYTE to[LEN];
     bool isReady = false;
 
+    Mapping() {
+        from[0] = to[0] = 0;
+    }
+
     void reset() {
         isReady = true;
         for (unsigned idx = 0; idx < sizeof(from); idx++) from[idx] = (BYTE)idx;
         memset(to, 0, sizeof(to));
     }
 };
+
+#undef TRANSPARENT
 
 class FPalette : public std::vector<FColor> {
 public:

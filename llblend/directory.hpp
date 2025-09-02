@@ -85,6 +85,7 @@
     const char SLASH_CHAR('/');
     #include <sys/fcntl.h>
 #endif
+ 
 
 class DirEntry;
 typedef void* HANDLE;

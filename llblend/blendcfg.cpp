@@ -178,7 +178,7 @@ bool BlendCfg::parseConfig(const lstring& cfgFilename) {
 
                 buffer.resize(filestat.st_size + 1);
                 streamsize inCnt = in.read(buffer.data(), buffer.size()).gcount();
-                assert(inCnt < buffer.size());
+                assert((unsigned)inCnt < buffer.size());
                 in.close();
                 buffer.push_back('\0');
 
