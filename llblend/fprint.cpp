@@ -120,11 +120,11 @@ unsigned FPrint::printHisto(DWORD* histo, unsigned length, const RGBQUAD* palett
                     printf("%s", toString(palettePtr[i]));
                 // printf(" RGB(%3d, %3d, %3d)",  palettePtr[i].rgbRed, palettePtr[i].rgbGreen, palettePtr[i].rgbBlue);
 
-                printf(" %'7u #  %3.1f %%\n", cnt, cnt * 100.0f / totalCnt);
+                printf(" %7u #  %3.1f %%\n", cnt, cnt * 100.0 / totalCnt);
                 // totalCnt += cnt;
             }
         }
-        printf(" Total  RGB(red, grn, blu) %'7lu #\n", totalCnt);
+        printf(" Total  RGB(red, grn, blu) %7lu #\n", (unsigned long)totalCnt);
     }
     return activeColors;
 }
@@ -179,7 +179,7 @@ void FPrint::printInfo(const FImage& img, const char* name) {
 void FPrint::printPalette(const RGBQUAD* palettePtr, unsigned colors) {
     if (palettePtr != NULL) {
         std::cout << "Colors (" << colors << ")\n";
-        for (int i = 0; i < colors; i++) {
+        for (unsigned i = 0; i < colors; i++) {
             printf("  [%3d] %s\n", i, toString(palettePtr[i]));
         }
     }

@@ -212,7 +212,7 @@ class JsonBuffer : public std::vector<char> {
 public:
     char keyBuf[10];
     const char EOC = (char)0;
-    size_t pos = 0;
+    unsigned int pos = 0;
     int seq = 100;
 
     char nextChr() {
@@ -244,7 +244,7 @@ public:
 
     const char* ptr(int len = 0) {
         const char* nowPtr = &at(pos);
-        pos = std::min(pos + len, size());
+        pos = std::min(pos + len, (unsigned)size());
         return nowPtr;
     }
 };

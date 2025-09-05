@@ -46,10 +46,6 @@
 
 class BlendCfg {
 public:
-    BlendCfg() {
-
-    }
-
     bool parseConfig(const lstring& cfgFilename);
     void print();
 
