@@ -40,6 +40,7 @@
     #pragma warning( disable : 4291 )
 #endif
 #define _CRT_SECURE_NO_WARNINGS
+#define VERSION "v6.05.01"
 
 #include <ctype.h>
 #include <stdio.h>
@@ -237,7 +238,7 @@ static std::string& ConvertSpecialChar(std::string& inOut) {
 // ---------------------------------------------------------------------------
 void showHelp(char* name) {
     cerr << "\n"
-        << name << "  Dennis Lang v1.8 (landenlabs.com) " __DATE__ << "\n"
+        << name << "  Dennis Lang " VERSION " (landenlabs.com) " __DATE__ << "\n"
         << "\nDes: 'Patented Image Blend\n"
                "Use: llblend [options] directories...   or  files\n"
                "\n"
