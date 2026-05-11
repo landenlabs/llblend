@@ -5,7 +5,7 @@
 //  Patented - "Selective Time Lapsed Image Blend"
 //
 //  BlendFUtil created by Dennis Lang on 12/21/21.
-//  Copyright © 2021 Dennis Lang. All rights reserved.
+//  Copyright © 2026 Dennis Lang. All rights reserved.
 //
 //-------------------------------------------------------------------------------------------------
 //

@@ -3,7 +3,7 @@
 //  Desc: FreeImage C++ wrapper on Drawing brush
 //
 //  Wrapper created by Dennis Lang on 12/21/21.
-//  Copyright © 2021 Dennis Lang. All rights reserved.
+//  Copyright © 2026 Dennis Lang. All rights reserved.
 //
 //  FreeImage 3  Design and implementation by
 //  - Floris van den Berg (flvdberg@wxs.nl)
@@ -18,7 +18,7 @@
 //
 // ----- License ----
 //
-// Copyright (c) 2021  Dennis Lang
+// Copyright (c) 2026 Dennis Lang
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
