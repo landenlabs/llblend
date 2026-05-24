@@ -40,7 +40,7 @@
     #pragma warning( disable : 4291 )
 #endif
 #define _CRT_SECURE_NO_WARNINGS
-#define VERSION "v6.05.05"
+#define VERSION "v6.05.25"
 
 #include <ctype.h>
 #include <stdio.h>
