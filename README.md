@@ -17,6 +17,11 @@
 # llblend
 OSX / Linux / DOS Experiment
 
+[![Build status](https://github.com/landenlabs/llblend/actions/workflows/build.yml/badge.svg)](https://github.com/landenlabs/llblend/actions/workflows/build.yml)
+
+### Dependencies
+* [FreeImage](https://freeimage.sourceforge.io/) - image loading/decoding library (header bundled at `llblend/freeimage/FreeImage.h`; library must be available at link time)
+
 ### TODO add notes here
 
 <pre>
@@ -29,4 +34,18 @@ Visit home website
 
 Help Banner:
 <pre>
+llblend  Dennis Lang <!-- VERSION -->v6.05.25<!-- DATE -->24-May-2026 (landenlabs.com)
+
+Des: 'Patented Image Blend
+Use: llblend [options] directories...   or  files
+
+ Options (only first unique characters required, options can be repeated):
+
+   -includefile=&lt;filePattern&gt;
+   -excludefile=&lt;filePattern&gt;
+   -verbose
+
+ Example:
+   llblend foo.png
+
 </pre>
